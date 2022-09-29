@@ -1,0 +1,1 @@
+git pull origin main && composer install && composer dump-autoload && php artisan migrate && php artisan api:cache && php artisan config:cache && php artisan route:cache && php artisan route:clear
